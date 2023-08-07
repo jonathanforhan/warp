@@ -1,6 +1,0 @@
-/home/jon/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=/home/jon/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/ninja/linux/x64/ninja -G Ninja -S /home/jon/dev/warp -B /home/jon/dev/warp/build-release
--- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
--- Including X11 support
--- Configuring done (0.1s)
--- Generating done (0.0s)
--- Build files have been written to: /home/jon/dev/warp/build-release
