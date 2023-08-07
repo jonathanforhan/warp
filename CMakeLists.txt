@@ -16,6 +16,7 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
         PRIVATE
         glad
         glfw
+        glm
 )
 
 # copy shaders to bin dir
