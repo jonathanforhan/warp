@@ -71,7 +71,7 @@ int32_t Application::run()
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
 
-    std::ifstream vertex("../../shaders/vertex.glsl"), fragment("../../shaders/fragment.glsl");
+    std::ifstream vertex("../shaders/vertex.glsl"), fragment("../shaders/fragment.glsl");
     std::stringstream vertex_shader, fragment_shader;
     vertex_shader << vertex.rdbuf();
     fragment_shader << fragment.rdbuf();
@@ -102,6 +102,7 @@ int32_t Application::run()
         }
 
         glAttachShader(program, _shader);
+        return 0;
     };
 
     add_shader(shader, vertex_shader.str().c_str(), vertex_shader.str().size(), GL_VERTEX_SHADER);
