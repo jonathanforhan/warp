@@ -1,7 +1,9 @@
 #include "Application.hpp"
 
+using namespace warp;
+
 int main()
 {
-    warp::Application app;
+    Application app;
     return app.run();
 }
